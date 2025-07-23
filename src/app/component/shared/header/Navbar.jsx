@@ -25,8 +25,8 @@ const Navbar = () => {
             <div className="w-6 h-6 bg-[#0c1a2e]"></div>
           </div>
           <div className="text-sm leading-tight">
-            <div className="font-bold">COBNB</div>
-            <div className="text-xs">THE BNB EXPERT</div>
+            <div className="font-bold">FINTECH</div>
+            <div className="text-xs">QARDH AL FINTECH</div>
           </div>
         </div>
 

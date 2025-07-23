@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 
 const Footer = () => {
@@ -33,8 +34,8 @@ const Footer = () => {
               <div className="text-black font-bold text-lg">LOGO</div>
             </div>
           </div>
-          <p className="text-lg font-semibold">COBNB</p>
-          <p className="text-xs text-gray-300">THE BNB EXPERT</p>
+          <p className="text-lg font-semibold">FINTECH</p>
+          <p className="text-xs text-gray-300">QARDH FINTECH</p>
         </div>
 
         {/* Contact Info */}
