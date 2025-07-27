@@ -1,6 +1,9 @@
 'use client';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { TiDelete } from "react-icons/ti";
+
+
 
 const BookNow = () => {
   const router = useRouter();
@@ -155,9 +158,10 @@ const BookNow = () => {
                   </div>
                   <button
                     onClick={() => handleRemoveRoom(room.id)}
-                    className="text-red-500 text-xs hover:underline"
+                    className="text-red-500 text-2xl hover:underline"
                   >
-                    Remove
+<TiDelete />
+
                   </button>
                 </div>
               ))}
