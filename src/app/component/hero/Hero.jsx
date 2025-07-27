@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import React from 'react';
 
 const Hero = () => {
@@ -36,9 +37,11 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold">
             Book <span className="italic font-serif">Now</span>
           </h1>
+         <Link href='/booknow'>
           <button className="mt-6 bg-teal-600 hover:bg-teal-700 text-white px-6 py-2 rounded-full font-semibold transition">
             Start Today
           </button>
+         </Link>
         </div>
       </div>
 
