@@ -2,8 +2,12 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { useGetAvailabilityQuery } from '@/redux/fetaure/getavailavail/availAblePropertySlice';
 
 const SecondHero = () => {
+
+  const {data:GetAllAvailAbleBooked}=useGetAvailabilityQuery();
+  console.log(" data from airbnb",GetAllAvailAbleBooked);
   const futureUnits = [
     {
       name: 'Picasso',
@@ -21,7 +25,7 @@ const SecondHero = () => {
       image: '/assets/secondHero/anta.avif',
     },
   ];
-
+// now added
   return (
     <div className="bg-white min-h-screen">
       {/* Booking Section */}
