@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: 'Book A Stay', href: '/' },
     { name: 'Career', href: '/career' },
     { name: 'Manage My Property', href: '/' },
-    { name: 'About COBNB', href: '/' },
+    // { name: 'About COBNB', href: '/' },
     { name: 'Blog', href: '/' },
     { name: 'Contact Us', href: '/' },
     { name: 'More', href: '/' },

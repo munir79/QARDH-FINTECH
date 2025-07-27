@@ -25,7 +25,7 @@ const SecondHero = () => {
       image: '/assets/secondHero/anta.avif',
     },
   ];
-// now added
+// now addedc
   return (
     <div className="bg-white min-h-screen">
       {/* Booking Section */}
