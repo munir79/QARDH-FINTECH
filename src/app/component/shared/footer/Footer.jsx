@@ -12,7 +12,7 @@ const Footer = () => {
     {
       icon: '✉️',
       label: 'Email',
-      value: 'jakirhossainmunir80@gmail.com',
+      value: 'quardalhasanfinetech@gmail.com',
       href: 'mailto:ask@cobnb.com.my',
     },
     {
